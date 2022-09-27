@@ -1,0 +1,48 @@
+*, *::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #272938;
+    padding-top: 30px;
+}
+
+.gif-container > #gif {
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-container > #search-button {
+    background: none;
+    border: solid 3px #e03c62;
+    padding: 7px 0;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+    width: 70px;
+    transition: 150ms;
+    background: #e03c62;
+}
+
+.search-container > input {
+    padding: 7px;
+    border-radius: 7px;
+    transition: 100ms;
+    border: none;
+    outline: none;
+}
