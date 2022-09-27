@@ -12,7 +12,7 @@ body {
     align-items: center;
     gap: 25px;
     background-color: #272938;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .gif-container > #gif {
@@ -21,7 +21,6 @@ body {
 
 .search-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 15px;
 }
@@ -37,6 +36,7 @@ body {
     width: 70px;
     transition: 150ms;
     background: #e03c62;
+    height: 40px;
 }
 
 .search-container > input {
@@ -45,4 +45,5 @@ body {
     transition: 100ms;
     border: none;
     outline: none;
+    height: 40px;
 }
